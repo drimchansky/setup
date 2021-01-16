@@ -1,0 +1,9 @@
+Host {name}
+    HostName {organization url}
+    User {username}
+    IdentityFile ~/.ssh/{private_key}
+
+Host {name}
+    HostName {organization url}
+    User {username}
+    IdentityFile ~/.ssh/{private_key}

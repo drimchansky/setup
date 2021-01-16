@@ -1,0 +1,70 @@
+{
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"editor.minimap.enabled": false,
+"workbench.editor.enablePreview": false,
+"diffEditor.ignoreTrimWhitespace": false,
+"explorer.confirmDragAndDrop": false,
+"breadcrumbs.enabled": false,
+"window.menuBarVisibility": "toggle",
+"window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+"telemetry.enableCrashReporter": false,
+"telemetry.enableTelemetry": false,
+"editor.suggestSelection": "first",
+"git.enableSmartCommit": false,
+"editor.wordWrap": "on",
+"files.exclude": {
+  "**/.git": true,
+  "**/.DS_Store": true,
+  "**/node_modules": true
+},
+"editor.tabSize": 2,
+"editor.renderWhitespace": "all",
+"editor.acceptSuggestionOnEnter": "smart",
+"editor.tokenColorCustomizations": null,
+
+"workbench.iconTheme": "vscode-great-icons",
+"workbench.colorTheme": "One Dark Pro",
+"window.zoomLevel": 0.3,
+"editor.fontSize": 16,
+"editor.fontFamily": "Fira Code",
+"editor.fontWeight": "400",
+"editor.renderIndentGuides": true,
+"editor.fontLigatures": true,
+
+"extensions.ignoreRecommendations": true,
+"prettier.requireConfig": true,
+"eslint.run": "onSave",
+"eslint.alwaysShowStatus": true,
+"emmet.includeLanguages": {
+  "javascript": "javascriptreact",
+  "vue-html": "html"
+},
+"emmet.triggerExpansionOnTab": true,
+
+"[javascript]": {
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"javascript.updateImportsOnFileMove.enabled": "always",
+"[typescript]": {
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"typescript.updateImportsOnFileMove.enabled": "always",
+"[typescriptreact]": {
+  "editor.formatOnSave": false
+},
+"[html]": {
+  "editor.defaultFormatter": "vscode.html-language-features",
+  "editor.formatOnSave": true
+},
+"[css]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+},
+"[markdown]": {
+  "editor.codeActionsOnSave": {
+      "source.fixAll": false
+  }
+}
+}
