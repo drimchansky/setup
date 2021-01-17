@@ -19,7 +19,7 @@ EXTENSIONS=(
   yzhang.markdown-all-in-one
   pkief.material-icon-theme
   christian-kohler.npm-intellisense
-  zhuangtongfa.material-theme
+  github.github-vscode-theme
   christian-kohler.path-intellisense
   mhmadhamster.postcss-language
   stylelint.vscode-stylelint
