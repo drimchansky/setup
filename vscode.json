@@ -40,6 +40,7 @@
   "vue-html": "html"
 },
 "emmet.triggerExpansionOnTab": true,
+"color-highlight.markRuler": false,
 
 "[javascript]": {
   "editor.formatOnSave": false,

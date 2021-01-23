@@ -9,10 +9,11 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 ```
 
 - `sudo apt-get install gnome-tweaks` + settings tweaks
+- `sudo apt-get install vokoscreen`
 - `sudo apt-get install ubuntu-restricted-extras`
 - `sudo apt-get install sudo rar unrar p7zip-full`
 
-- `sudo apt-get install `telegram-desktop`
+- `sudo apt-get install telegram-desktop`
 - [zoom](https://zoom.us/download#client_4meeting)
 - [vlcplayer](https://www.videolan.org/vlc/index.ru.html)
 - [deluge-torrent](https://dev.deluge-torrent.org/wiki/Download)
