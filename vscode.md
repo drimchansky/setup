@@ -2,6 +2,7 @@ Copy-paste following to terminal:
 
 ```
 EXTENSIONS=(
+  eamodio.gitlens
   formulahendry.auto-rename-tag
   bungcip.better-toml
   coenraads.bracket-pair-colorizer

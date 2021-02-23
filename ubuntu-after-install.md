@@ -21,6 +21,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 - [vscode](https://code.visualstudio.com/) + tweaks(config, extensions)
 - [firacode](https://github.com/tonsky/FiraCode) (.local/share/fonts)
 - nodejs, npm
+- `npm i -g n svgo eslint parcel`
 ```
 sudo apt-get install curl
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
@@ -35,3 +36,4 @@ ssh-add ~/.ssh/private_key // init ssh-key
 - [mongodb](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
 - [mongodb-compass](https://www.mongodb.com/try/download/compass)
 - postman (Ubuntu Software)
+- [font forge](http://designwithfontforge.com/en-US/Installing_Fontforge.html)

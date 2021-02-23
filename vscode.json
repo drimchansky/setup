@@ -33,7 +33,7 @@
 
 "extensions.ignoreRecommendations": true,
 "prettier.requireConfig": true,
-"eslint.run": "onSave",
+"eslint.run": "onType",
 "eslint.alwaysShowStatus": true,
 "emmet.includeLanguages": {
   "javascript": "javascriptreact",
