@@ -136,6 +136,12 @@ Install Vokoscreen
 sudo dnf install vokoscreenNG
 ```
 
+Install image ootimization tools
+
+```sh
+sudo yum install jpegoptim optipng
+```
+
 ### Development Tools
 
 Install tools:
