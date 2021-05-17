@@ -8,3 +8,4 @@
 * [Remove App Menu](https://extensions.gnome.org/extension/3906/remove-app-menu/)
 * [Screenshot Tool](https://extensions.gnome.org/extension/1112/screenshot-tool/)
 * [Status Area Horizontal Spacing](https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/)
+* [KStatusNotifierItem/AppIndicator Support](https://extensions.gnome.org/extension/615/appindicator-support/)
