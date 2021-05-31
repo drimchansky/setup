@@ -11,6 +11,7 @@
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 ```
 
+- `sudo apt install make`
 - `sudo apt-get install gnome-tweaks` + settings tweaks
 - `sudo apt-get install vokoscreen`
 - `sudo apt-get install ubuntu-restricted-extras`
@@ -30,6 +31,10 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 sudo apt-get install curl
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install nodejs
+```
+
+```sh
+sudo npm i -g n parcel-bundler webpack webpack-cli pm2 eslint svgo
 ```
 
 - [git](https://git-scm.com/) + config + ssh
