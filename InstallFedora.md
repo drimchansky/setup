@@ -1,6 +1,6 @@
-## My post-install process for Fedora
+# My post-install process for Fedora
 
-### System update and base sofrware
+## System update and base sofrware
 
 Remove unnecessary packages:
 
@@ -51,7 +51,7 @@ echo "X-GNOME-Autostart-enabled=false" >> ~/.config/autostart/gnome-software-ser
 dconf write /org/gnome/desktop/search-providers/disabled "['org.gnome.Software.desktop']"
 ```
 
-### Base Settings
+## Base Settings
 
 Disable file system scanning:
 
@@ -61,7 +61,7 @@ dconf write /org/freedesktop/tracker/miner/files/crawling-interval -2
 
 Restart.
 
-### Text Editor
+## Text Editor
 
 Install VS Code:
 
@@ -75,7 +75,7 @@ Enable Sync.
 
 Download [FiraCode](https://github.com/tonsky/FiraCode) and unpack in ./local/share/fonts
 
-### GNOME Settings
+## GNOME Settings
 
 Open settings:
 
@@ -110,7 +110,7 @@ sudo dnf install gnome-tweak-tool
 * **Windows:** enable Center New Window.
 * **Window Titlebars:** enable Maximize and Minimize buttons
 
-### Additional Software
+## Additional Software
 
 Install codecs:
 
@@ -142,7 +142,7 @@ Install image ootimization tools
 sudo yum install jpegoptim optipng
 ```
 
-### Development Tools
+## Development Tools
 
 Install tools:
 
@@ -168,7 +168,7 @@ Install [FontForge](http://designwithfontforge.com/en-US/Installing_Fontforge.ht
 
 Install [MongoDB](https://www.mongodb.com/try/download/community) (Fedora 34 - RedHat 8.0)
 
-### Notes
+## Notes
 
 Run Extensions
 
