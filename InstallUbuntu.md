@@ -1,7 +1,6 @@
 # My post-install process for Ubuntu
 
 - firefox tweaks (sync, extensions etc.)
-- [opera](https://www.opera.com/ru) hide sidebar + start 'vpn'
 - [chrome](https://www.google.com/intl/en/chrome/)
 
 - add russian keyboard (settings / region & language)
@@ -12,6 +11,8 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 ```
 
 - `sudo apt install make`
+- `sudo apt install gimp`
+- `sudo apt-get install jq`
 - `sudo apt-get install gnome-tweaks` + settings tweaks
 - `sudo apt-get install vokoscreen`
 - `sudo apt-get install ubuntu-restricted-extras`
@@ -20,8 +21,9 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 
 - `sudo apt-get install telegram-desktop`
 - [zoom](https://zoom.us/download#client_4meeting)
+- [skype](https://www.skype.com/ru/get-skype)
 - [vlcplayer](https://www.videolan.org/vlc/index.ru.html)
-- [deluge-torrent](https://dev.deluge-torrent.org/wiki/Download)
+- [transmission](https://linuxhint.com/transmission-bittorrent-client-linux/)
 
 - [vscode](https://code.visualstudio.com/) + tweaks(config, extensions)
 - [firacode](https://github.com/tonsky/FiraCode) (.local/share/fonts)
