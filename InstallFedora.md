@@ -1,4 +1,4 @@
-# My post-install process for Fedora
+# Post-install process for Fedora
 
 ## System update and base sofrware
 

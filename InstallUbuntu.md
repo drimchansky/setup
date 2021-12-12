@@ -22,7 +22,7 @@ sudo apt-get install nodejs
 ```
 - Some npm stuff:
 ```sh
-sudo npm i -g n parcel-bundler webpack webpack-cli pm2 eslint svgo
+sudo npm i -g n parcel webpack webpack-cli pm2 eslint svgo
 ```
 
 ## Settings
