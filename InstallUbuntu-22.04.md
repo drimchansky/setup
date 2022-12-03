@@ -6,13 +6,14 @@
 - [Git](https://git-scm.com/)
 - [Telegram](https://desktop.telegram.org/)
 - [Zoom](https://zoom.us/download#client_4meeting)
-- [VLCPlayer](https://www.videolan.org/vlc/index.ru.html)
 - [VSCode](https://code.visualstudio.com/)
+- [Surfshark VPN](https://support.surfshark.com/hc/en-us/articles/5067279648146-How-to-set-up-Surfshark-on-Linux-)
 - [Docker](https://docs.docker.com/engine/install/ubuntu/)
 - [MongoDB-Compass](https://www.mongodb.com/try/download/compass)
 - Postman (Ubuntu Software)
+- VLC Player (Ubuntu Software)
 - `sudo apt install make gimp`
-- `sudo apt-get install jq gnome-tweaks vokoscreen ubuntu-restricted-extras sudo rar unrar p7zip-full jpegoptim optipng curl`
+- `sudo apt-get install jq gnome-tweaks vokoscreen ubuntu-restricted-extras sudo rar unrar p7zip-full jpegoptim optipng curl unzip`
 - NodeJS, npm:
 ```sh
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
