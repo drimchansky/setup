@@ -9,9 +9,15 @@
 - [Zoom](https://zoom.us/download#client_4meeting)
 - [Docker](https://docs.docker.com/desktop/install/mac-install/)
 - [MongoDB-Compass](https://www.mongodb.com/try/download/compass)
+- [Scroll-Reverser](https://github.com/pilotmoon/Scroll-Reverser)
+- [AnyDesk](https://anydesk.com/)
+- [ImageOptim](https://imageoptim.com/mac)
+- [Discord](https://discord.com/)
+- [Tuxera](https://ntfsformac.tuxera.com/)
 - Telegam (App Store)
 - Slack (App Store)
 - The Unarchiver (App Store)
+- Bitwarder (App Store)
 - Brew
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -25,6 +31,10 @@ brew install mongodb-community@6.0
 - cmake
 ```
 brew install cmake
+```
+- Transmission
+```
+brew install --cask transmission
 ```
 
 ## Settings
