@@ -3,6 +3,7 @@
 ## Software
 
 - [Chrome](https://www.google.com/chrome/)
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [VS Code](https://code.visualstudio.com/)
 - [Node JS](https://nodejs.org/en/download/)
 - [VLC Player](https://www.videolan.org/vlc/index.ru.html)
@@ -14,6 +15,7 @@
 - [ImageOptim](https://imageoptim.com/mac)
 - [Discord](https://discord.com/)
 - [Tuxera](https://ntfsformac.tuxera.com/)
+- [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation)
 - Telegam (App Store)
 - Slack (App Store)
 - The Unarchiver (App Store)
@@ -36,15 +38,20 @@ brew install cmake
 ```
 brew install --cask transmission
 ```
+- 7z
+```
+brew install p7zip
+```
 
 ## Settings
 
 - Keyboard: Text input - Add "Russian -- PC"
 - Trackpad: Scroll & Zoom: Natural scrolling (ON)
-- Show hidden files: `defaults write com.apple.finder AppleShowAllFiles -bool TRUE;killall Finder`
 - Add user directory to the finder: Finder => Go => Go to finder => type `/`, find user directory and drag it to Favorites
-
- https://themacbeginner.com/view-content-root-directory-mac-os-x/
+- Always show hidden files
+```
+defaults write http://com.apple.Finder AppleShowAllFiles true
+```
 
 ## Other
 
