@@ -1,4 +1,4 @@
-# Post-install process for MacOS
+# Post-install process for MacOS Ventura
 
 ## Software
 
@@ -15,7 +15,7 @@
 - [ImageOptim](https://imageoptim.com/mac)
 - [Discord](https://discord.com/)
 - [Tuxera](https://ntfsformac.tuxera.com/)
-- [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation)
+- [Magnet](https://magnet.crowdcafe.com/)
 - Telegam (App Store)
 - Slack (App Store)
 - The Unarchiver (App Store)
@@ -45,24 +45,39 @@ brew install p7zip
 
 ## Settings
 
-- Keyboard: Text input - Add "Russian -- PC"
-- Trackpad: Scroll & Zoom: Natural scrolling (ON)
-- Add user directory to the finder: Finder => Go => Go to finder => type `/`, find user directory and drag it to Favorites
-- Always show hidden files
+### Add Russian text input.
+
+System Settings -> Keyboard -> Text Input -> Edit -> '+' -> 'Russian' -> 'Russian – PC'.
+
+### Enable natural trackpad scrolling
+
+System Settings -> Trackpad -> Scroll & Zoom: Natural scrolling (ON).
+
+### Add user directory to the Finder
+
+Finder -> Go -> Go to finder -> type `/` -> find user directory and drag it to the Favorites
+
+### Show hidden files always
+
 ```
 defaults write http://com.apple.Finder AppleShowAllFiles true
 ```
 
-## Other
+## Fonts
 
-### Fonts
+Download fonts
 
 - [Fira Code](httpss://github.com/tonsky/FiraCode)
+- [Martian Mono](https://github.com/evilmartians/mono)
 
-Install via Font Book
+Install using Font Book.
+
+## Configs
 
 ### SSH keys
 
-After adding ssh keys to `User/.ssh` directory:
-- Add ssh keys ssh-add `~/.ssh/private_key`
-- Update ssh directory rights `chmod 700 ~/.ssh/*`
+Place keys to `User/.ssh` directory.
+
+Add keys to authentication agent `ssh-add ~/.ssh/{private_key}`
+
+Set directory rights `chmod 700 ~/.ssh/*`
