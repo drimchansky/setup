@@ -1,5 +1,4 @@
 {
-    // general
     "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
     "window.menuBarVisibility": "visible",
     "breadcrumbs.enabled": false,
@@ -11,7 +10,6 @@
     "workbench.editor.enablePreview": false,
     "security.workspace.trust.untrustedFiles": "prompt",
 
-    // fonts
     "editor.fontFamily": "Martian Mono",
     "editor.fontSize": 14,
     "editor.lineHeight": 22,
@@ -21,18 +19,15 @@
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "workbench.fontAliasing": "auto",
 
-    // themes
     "workbench.colorTheme": "GitHub Dark",
     "window.autoDetectColorScheme": false,
     "workbench.preferredDarkColorTheme": "GitHub Dark",
     "workbench.preferredLightColorTheme": "GitHub Light",
     "workbench.iconTheme": "vscode-great-icons",
 
-    // diff editor
     "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": true,
 
-    // extensions
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
     "emmet.triggerExpansionOnTab": true,
@@ -60,13 +55,11 @@
     "gitlens.statusBar.enabled": false,
     "gitlens.advanced.fileHistoryShowAllBranches": true,
 
-    // formatting
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "javascript.preferences.quoteStyle": "single",
     "typescript.preferences.quoteStyle": "single",
 
-    // files
     "explorer.confirmDelete": true,
     "files.exclude": {
         "**/.DS_Store": true,
