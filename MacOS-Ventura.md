@@ -67,7 +67,7 @@ defaults write http://com.apple.Finder AppleShowAllFiles true
 
 Download fonts
 
-- [Fira Code](httpss://github.com/tonsky/FiraCode)
+- [Fira Code](https://github.com/tonsky/FiraCode)
 - [Martian Mono](https://github.com/evilmartians/mono)
 
 Install using Font Book.
