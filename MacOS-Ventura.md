@@ -16,6 +16,7 @@
 - [Discord](https://discord.com/)
 - [Tuxera](https://ntfsformac.tuxera.com/)
 - [Magnet](https://magnet.crowdcafe.com/)
+- [Inkscape](https://inkscape.org/)
 - Telegam (App Store)
 - Slack (App Store)
 - The Unarchiver (App Store)
