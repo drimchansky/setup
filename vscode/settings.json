@@ -10,7 +10,7 @@
     "workbench.editor.enablePreview": false,
     "security.workspace.trust.untrustedFiles": "prompt",
 
-    "editor.fontFamily": "Martian Mono",
+    "editor.fontFamily": "Martian Mono, Fira Code",
     "editor.fontSize": 14,
     "editor.lineHeight": 22,
     "editor.fontWeight": "400",
@@ -19,10 +19,10 @@
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "workbench.fontAliasing": "auto",
 
-    "workbench.colorTheme": "GitHub Dark",
+    "workbench.colorTheme": "Night Owl",
     "window.autoDetectColorScheme": false,
-    "workbench.preferredDarkColorTheme": "GitHub Dark",
-    "workbench.preferredLightColorTheme": "GitHub Light",
+    "workbench.preferredDarkColorTheme": "Night Owl",
+    "workbench.preferredLightColorTheme": "Night Owl Light",
     "workbench.iconTheme": "vscode-great-icons",
 
     "diffEditor.ignoreTrimWhitespace": false,

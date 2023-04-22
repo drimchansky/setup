@@ -16,12 +16,12 @@
     // 	"description": "Log output to console"
     // }
     "js.console.log": {
-        "prefix": "cl",
+        "prefix": "clg",
         "body": ["console.log($1)"],
         "description": "Insert JavaScript console.log()"
     },
     "js.console.error": {
-        "prefix": "cr",
+        "prefix": "cle",
         "body": ["console.log($1)"],
         "description": "Insert JavaScript console.error()"
     }
