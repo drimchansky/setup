@@ -17,6 +17,8 @@
 - [Tuxera](https://ntfsformac.tuxera.com/)
 - [Magnet](https://magnet.crowdcafe.com/)
 - [Inkscape](https://inkscape.org/)
+- [Command X](https://sindresorhus.com/command-x)
+- [Postman](https://www.postman.com/downloads/)
 - Telegam (App Store)
 - Slack (App Store)
 - The Unarchiver (App Store)
