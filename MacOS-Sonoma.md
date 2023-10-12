@@ -67,6 +67,10 @@ Finder -> Go -> Go to finder -> type `/` -> find user directory and drag it to t
 defaults write http://com.apple.Finder AppleShowAllFiles true
 ```
 
+### Speed up keyboard
+
+System Settings -> Keyboard -> Key repeat rate (fast), Delay until repeat (fast)
+
 ## Fonts
 
 Download fonts
