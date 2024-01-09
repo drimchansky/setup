@@ -20,6 +20,7 @@
 - [Command X](https://sindresorhus.com/command-x)
 - [Postman](https://www.postman.com/downloads/)
 - [Clipy](https://clipy-app.com/)
+- [Google Drive](https://www.google.com/drive/download/)
 - Telegam (App Store)
 - Slack (App Store)
 - The Unarchiver (App Store)
