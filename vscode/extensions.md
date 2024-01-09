@@ -21,6 +21,9 @@ EXTENSIONS=(
     emmanuelbeziat.vscode-great-icons
     styled-components.vscode-styled-components
     ms-azuretools.vscode-docker
+    ms-playwright.playwright
+    Vue.volar
+    Vue.vscode-typescript-vue-plugin
 )
 for EXTENSION in ${EXTENSIONS[@]}; do
   code --install-extension $EXTENSION
