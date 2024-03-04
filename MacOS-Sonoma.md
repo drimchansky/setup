@@ -90,3 +90,16 @@ Place keys to `User/.ssh` directory.
 Add keys to authentication agent `ssh-add ~/.ssh/{private_key}`
 
 Set directory rights `chmod 700 ~/.ssh/*`
+
+### Enable commits signing (SSH)
+
+1. Generate SSH key locally
+2. Add SSH key to GitHub (Settings -> SSH and GPG keys -> New SSH key (Signing))
+3. Update local git settings
+```
+git config --global gpg.format ssh
+git config --global user.signingkey ~/PATH/TO/.SSH/KEY.PUB
+git config --global commit.gpgsign true
+```
+
+[Read more about commits signing...](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification)
