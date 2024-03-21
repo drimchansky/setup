@@ -47,6 +47,10 @@ brew install --cask transmission
 ```
 brew install p7zip
 ```
+- pnpm
+```
+brew install pnpm
+```
 
 ## Settings
 

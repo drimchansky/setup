@@ -24,6 +24,7 @@ EXTENSIONS=(
     ms-playwright.playwright
     Vue.volar
     Vue.vscode-typescript-vue-plugin
+    svelte.svelte-vscode
 )
 for EXTENSION in ${EXTENSIONS[@]}; do
   code --install-extension $EXTENSION
