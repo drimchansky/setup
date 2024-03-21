@@ -21,6 +21,7 @@
 - [Postman](https://www.postman.com/downloads/)
 - [Clipy](https://clipy-app.com/)
 - [Google Drive](https://www.google.com/drive/download/)
+- [nvm](https://github.com/nvm-sh/nvm)
 - Telegam (App Store)
 - Slack (App Store)
 - The Unarchiver (App Store)
