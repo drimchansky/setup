@@ -25,6 +25,7 @@ EXTENSIONS=(
     Vue.volar
     Vue.vscode-typescript-vue-plugin
     svelte.svelte-vscode
+    astro-build.astro-vscode
 )
 for EXTENSION in ${EXTENSIONS[@]}; do
   code --install-extension $EXTENSION
