@@ -90,11 +90,24 @@ Install using Font Book.
 
 ### SSH keys
 
-Place keys to `User/.ssh` directory.
+1. Place keys to `User/.ssh` directory.
 
-Add keys to authentication agent `ssh-add ~/.ssh/{private_key}`
+2. Add keys to authentication agent `ssh-add ~/.ssh/{private_key}`
 
-Set directory rights `chmod 700 ~/.ssh/*`
+3. Set directory rights `chmod 700 ~/.ssh/*`
+
+4. Create ssh config `.ssh/config`
+```
+Host {host1}
+    HostName {hostname1}
+    User {username1}
+    IdentityFile ~/.ssh/{filename1}
+
+Host {host2}
+    HostName {hostname2}
+    User {username2}
+    IdentityFile ~/.ssh/{filename2}
+```
 
 ### Enable commits signing (SSH)
 
