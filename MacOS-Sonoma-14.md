@@ -107,4 +107,23 @@ git config --global user.signingkey ~/PATH/TO/.SSH/KEY.PUB
 git config --global commit.gpgsign true
 ```
 
-[Read more about commits signing...](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification)
+[Read more about commits signing](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification)
+
+### Git configs: work/personal
+
+1. Create a root `.gitconfig` file: `touch ~/.gitconfig`
+```
+[includeIf "gitdir:~/work/"]
+    path = .gitconfig-work
+[includeIf "gitdir:~/personal/"]
+    path = .gitconfig-personal
+```
+
+2. Create work and personal files: `touch ~/.gitconfig-personal`, `touch ~/.gitconfig-work`
+```
+[user]
+    email = work/personal@email.com
+    name = John Doe
+```
+
+[Read more about conditional git configs](https://git-scm.com/docs/git-config#_includes)
