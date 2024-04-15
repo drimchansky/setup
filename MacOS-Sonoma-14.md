@@ -109,6 +109,8 @@ Host {host2}
     IdentityFile ~/.ssh/{filename2}
 ```
 
+[Read more about ssh configuration](https://www.digitalocean.com/community/tutorials/how-to-configure-custom-connection-options-for-your-ssh-client)
+
 ### Enable commits signing (SSH)
 
 1. Generate SSH key locally
