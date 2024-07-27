@@ -36,21 +36,17 @@ brew tap mongodb/brew
 brew update
 brew install mongodb-community@6.0
 ```
-- cmake
+- cmake, 7z, pnpm, fonttools
 ```
-brew install cmake
+brew install cmake p7zip, pnpm, fonttools
 ```
 - Transmission
 ```
 brew install --cask transmission
 ```
-- 7z
+- kill-port, yarn
 ```
-brew install p7zip
-```
-- pnpm
-```
-brew install pnpm
+pnpm i -g kill-port yarn
 ```
 
 ## Settings
