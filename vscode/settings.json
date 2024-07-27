@@ -44,15 +44,7 @@
     "prettier.printWidth": 200,
     "prettier.singleQuote": true,
     "prettier.semi": false,
-    "projectManager.tags": [
-        "1. personal.projects",
-        "1.1. personal.refs",
-        "2. work.projects",
-        "2.1. work.projects-archive",
-        "2.2. work.services",
-        "2.3. work.packages",
-        "2.4. work.rnd"
-    ],
+    "projectManager.tags": ["1. personal", "2. work", "3. references", "4. other"],
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.statusBar.enabled": false,
     "gitlens.advanced.fileHistoryShowAllBranches": true,
@@ -61,6 +53,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "javascript.preferences.quoteStyle": "single",
     "typescript.preferences.quoteStyle": "single",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "postcss.validate": false,
 
     "explorer.confirmDelete": false,
     "files.exclude": {
