@@ -1,5 +1,7 @@
 # Post-install process for Ubuntu
 
+⚠️ Warning: The post-install instruction is deprecated
+
 ## Software
 
 - [Google Chrome](https://www.google.com/intl/en/chrome/)

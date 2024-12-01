@@ -1,5 +1,7 @@
 # Post-install process for MacOS Ventura
 
+⚠️ Warning: The post-install instruction is deprecated
+
 ## Software
 
 - [Chrome](https://www.google.com/chrome/)
